@@ -32,7 +32,7 @@ def get_shop_list_by_dishes(dishes, person_count):
                                                                      ingredients['quantity'] * person_count
 
         else:
-            print(f'\n"В меню нет - идите голодными."\n')
+            print(f'\n"В меню нет - идите голодными!"\n')
     return shop_list
 
 print(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2))
