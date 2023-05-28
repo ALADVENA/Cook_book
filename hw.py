@@ -13,7 +13,7 @@ with open('recipes.txt') as f:
         f.readline()
         cook_book[cook_name] = ingredients
         
-# print(f'cook_book = {cook_book}')
+print(f'cook_book = {cook_book}')
 
 # Задание № 2
 
